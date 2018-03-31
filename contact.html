@@ -1,0 +1,71 @@
+<!DOCTYPE_HTML>
+<!--
+  _                                   ____  _ 
+ | |__   __ _ _ __   __ _ _ __   __ _|  _ \(_)
+ | '_ \ / _` | '_ \ / _` | '_ \ / _` | |_) | |
+ | |_) | (_| | | | | (_| | | | | (_| |  __/| |
+ |_.__/ \__,_|_| |_|\__,_|_| |_|\__,_|_|   |_|  2018
+                                            
+-->
+<html>
+<head>
+<!-- meta stuff here -->
+<meta name="description" content="My Standard Template">
+<meta name="keywords" content="Example Keyword, Another Example Keyword">
+<meta name="author" content="bananaPi">
+<!-- CSS HERE -->
+<link rel="stylesheet" type="text/css" href="template1-Stylesheet.css">
+</head>
+<!-- //////////// Body //////////// -->
+<body>
+<h1 class="maintitle">Surrey County Council<img class="logoimg" src="logo.jpg" alt="logo" height="10%"></h1>
+<!-- Navbar -->
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="contact.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Pages 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="page1.html">Page 1</a>
+      <a href="page2.html">Page 2</a>
+      <a href="page3.html">Page 3</a>
+      <a href="page4.html">Feedback</a>
+    </div>
+  </div> 
+</div> 
+<!--  Written Content -->
+<div class="contentbox">
+    <h1>This is Surrey</h1>
+     <p>Call us on: 01306 69696969<br>Come to our office in pipbrook and talk to us</p>
+<img src="map.jpg" height="50%" style="float: left">
+    <p1>Surrey is a county in the South East England, and one of the home counties. It borders Kent to the east, Sussex to the south, Hampshire to the west, Berkshire to the north-west and Greater London to the north-east. The county town is Guildford.[3] Surrey County Council sits outside its jurisdiction in Kingston upon Thames, part of Greater London since 1965. With a population of 1.1 million, Surrey is the third-most-populous county in the South East. <br><br>Surrey is divided into eleven districts: Elmbridge, Epsom and Ewell, Guildford, Mole Valley, Reigate and Banstead, Runnymede, Spelthorne, Surrey Heath, Tandridge, Waverley, and Woking. Services such as roads, mineral extraction licensing, education, strategic waste and recycling infrastructure, birth, marriage, and death registration, and social and children's services are administered by Surrey County Council. The London boroughs of Lambeth, Southwark, Wandsworth, and parts of Lewisham and Bromley were in Surrey until 1889. The boroughs of Croydon, Kingston upon Thames, Merton, Sutton and Richmond upon Thames south of the River Thames were part of Surrey until 1965, when they too were absorbed into Greater London, and the county extended north of the Thames by the addition of Spelthorne, as a result of the dissolution of Middlesex. Due to this expansion, modern Surrey also borders on the London boroughs of Hillingdon, Hounslow, Richmond upon Thames, Kingston upon Thames, Sutton, Croydon and Bromley.<br><br><div class="container">
+  <!-- contact form -->
+    <script>
+        function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+    <form action="action_page.php">
+
+    <label for="fname">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="Email address" placeholder="Your email...">
+
+    <label for="subject">Content</label>
+    <textarea id="subject" name="subject" placeholder="What would you like to say" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+    <br>
+</body>
+</html>
